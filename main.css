@@ -6,6 +6,37 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* headers */
+h1 {
+    font-size: 350%;
+    text-align: center;
+}
+h2 {
+    font-size: 250%;
+    text-align: center;
+}
+h3 {
+    font-size: 150%;
+    text-align: center;
+}
+
+/* paragraphs */
+p {
+    font-size: 20px;
+}
+.filler {
+    text-align: center;
+    color: red;
+}
+.info {
+    text-align: center;
+}
+
+/* links */
+li {
+    font-size: 20px;
+}
+
 /* --- Responsive Design --- */
 /* row clearing */
 .row::after {

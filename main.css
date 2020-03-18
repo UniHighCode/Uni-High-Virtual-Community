@@ -85,6 +85,18 @@ a {
     color: white;
 }
 
+/* GIFs */
+/* TODO: fix placement on mobile */
+.gif {
+    width: 70%;
+    height: 0;
+    padding-bottom: 56%;
+    position: relative;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: -2vh;
+}
+
 /* colors */
 .blue {
     background-color: #0066cc;

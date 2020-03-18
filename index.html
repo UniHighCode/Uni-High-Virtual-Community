@@ -13,37 +13,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
+    <!-- HEADER -->
     <div class="blue">
         <div class="row">
+            <!-- TITLE -->
             <div class="col-6">
                 <h1>Uni High Virtual Community</h1>
             </div>
+            <!-- ABOUT -->
             <div class="col-6">
                 <p>This website was inspired by <a href="https://winter.princeton.edu/virtual">Princeton's Winter Session Virtual Community Building website</a> to help keep Uni High's community together while we stay safe from COVID-19. We will try to update this site as frequently as possible with news & activities, so make sure to keep checking in!</p>
 
-                <p>Feel free to make any suggestions for things we can add! You are welcome to make content (YouTube tutorials, writing, lists of your favorite books, etc.) to share on here! Unfortunately, we do not have a suggestions button yet, so please contact Emi Brown for now. We also hope to add a calendar soon for scheduled events such as online talks and esports games!</p>
+                <p>Feel free to make any suggestions for things we can add! You are welcome to make content (YouTube tutorials, writing, lists of your favorite books, etc.) to share on here! Unfortunately, we do not have a suggestions button yet, so please contact Emi Brown for now.</p>
             </div>
         </div>
+        <!-- NAVIGATION -->
         <div class="row">
-
+            <div class="nav">
+                <div class="col-4">
+                    <a href="index.html#eventcalendar">Online Events</a>
+                </div>
+                <div class="col-4">
+                    <a href="index.html#stufftodo">Bored?</a>
+                </div>
+                <div class="col-4">
+                    <a href="index.html#clubinfo">Club Info</a>
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <h2>Calendar</h2>
-
+    <!-- CALENDAR -->
+    <h2 id="eventcalendar">Calendar</h2>
     <div class="row">
         <div class="col-9">
             <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=dnYyNDlvMWtzZzlvYm4wc2RvZmxiNzByOGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%233F51B5&amp;showTitle=0&amp;showTabs=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0" class="calendar"frameborder="0" scrolling="no"></iframe>
         </div>
 
+        <!-- ESPORTS TWITTER FEED -->
         <div class="col-3">
-            <a class="twitter-timeline" data-height="70vh" href="https://twitter.com/UniLabEsports?ref_src=twsrc%5Etfw">Tweets by UniLabEsports</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" data-height="70vh" href="https://twitter.com/UniLabEsports?ref_src=twsrc%5Etfw">Tweets by UniLabEsports</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
 
+    <!-- LIST OF ACTIVITIES -->
     <div class="blue">
-        <h2>Anytime, Anywhere</h2>
+        <h2 id="stufftodo">Anytime, Anywhere</h2>
         <div class="row">
             <div class="col-4">
                 <h3>Stay Active</h3>
@@ -78,8 +95,8 @@
         </div>
     </div>
 
-
-    <h3>Interested in coding or want to help with the website?</h3>
+    <!-- UNI CODE CLUB INFORMATION -->
+    <h3 id="clubinfo">Interested in coding or want to help with the website?</h3>
     <p class="info">Take a look at the <a href="https://docs.google.com/document/d/1tRt2VmAV3OIFuLvTWfw4voHVJV8Q9BxIciNM-DLKYFc/edit?usp=sharing">list of Uni Code resources</a> or contact Emi Brown!</p>
 </body>
 </html>

@@ -20,7 +20,7 @@ h2 {
     padding-top: 3vh;
 }
 h3 {
-    font-size: 150%;
+    font-size: 170%;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ p {
     text-align: center;
 }
 
-/* links */
+/* links & lists */
 ul {
     list-style-type: none;
     font-size: 20px;
@@ -47,6 +47,14 @@ li {
 }
 a {
     color: orange;
+}
+.links {
+    text-align: center;
+}
+#reqs {
+    list-style-type: disc;
+    color: white;
+    font-size: 18px;
 }
 
 /* Navigation */
@@ -85,7 +93,12 @@ a {
     color: white;
 }
 
-/* GIFs */
+/* Images & GIFs */
+img {
+    width: 100%;
+    height: auto;
+    padding: 5%;
+}
 /* TODO: fix placement on mobile */
 .gif {
     width: 70%;
@@ -95,6 +108,35 @@ a {
     margin-left: 7vw;
     margin-right: 7vw;
     margin-top: -2vh;
+}
+
+/* collapsible */
+.collapsible {
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid orange;
+    width: 100%;
+}
+.active, .collapsible:hover {
+    background-color: orange;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #0066cc;
+    color: black;
+    font-size: 16px;
 }
 
 /* colors */
@@ -139,7 +181,7 @@ a {
     .col-12 {width: 100%;}
 }
 
-/* --- IMPLEMENT THESE LATER --- */
+/* TODO */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 

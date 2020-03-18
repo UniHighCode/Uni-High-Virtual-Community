@@ -55,6 +55,20 @@ a {
     color: white;
 }
 
+.calendar {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    border-width: 0;
+
+    width: 90%;
+    height: 70vh;
+}
+.addeventstc {
+    width: 11vw;
+    margin-left: 44.5vw;
+    margin-right: 44.5vw;
+}
+
 /* --- Responsive Design --- */
 /* row clearing */
 .row::after {

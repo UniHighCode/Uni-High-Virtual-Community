@@ -56,6 +56,12 @@ a {
     color: white;
     font-size: 18px;
 }
+.poem {
+    text-align: center;
+    margin-top: 5vh;
+    border: dashed orange;
+    padding: 3%;
+}
 
 /* Navigation */
 .nav {

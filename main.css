@@ -63,6 +63,33 @@ a {
     padding: 3%;
 }
 
+/* Alerts */
+/* message box */
+.alert {
+    padding: 20px;
+    background-color: #2196F3;;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+    text-align: center;
+}
+
+/* close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: orange;
+}
+
 /* Navigation */
 .nav {
     text-align: center;
@@ -149,6 +176,8 @@ img {
 .blue {
     background-color: #0066cc;
     color: white;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 /* --- Responsive Design --- */

@@ -28,6 +28,9 @@ h3 {
 p {
     font-size: 20px;
 }
+b {
+    text-shadow: 1px 1px black;
+}
 .filler {
     text-align: center;
     color: red;

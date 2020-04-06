@@ -29,7 +29,7 @@ p {
     font-size: 20px;
 }
 b {
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 .filler {
     text-align: center;
@@ -70,7 +70,7 @@ a {
 /* message box */
 .alert {
     padding: 20px;
-    background-color: #2196F3;;
+    background-color: #2196F3;
     color: white;
     position: fixed;
     width: 100%;
@@ -181,6 +181,10 @@ img {
     color: white;
     padding-top: 5vh;
     padding-bottom: 5vh;
+}
+.orangebox {
+    border: outset orange;
+    background-color: #2196F3;
 }
 
 /* --- Responsive Design --- */
